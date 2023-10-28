@@ -1,7 +1,7 @@
 const BIRD_IMGS = [new Image(), new Image(), new Image()];
-BIRD_IMGS[0].src = '../images/bird1.png';
-BIRD_IMGS[1].src = '../images/bird2.png';
-BIRD_IMGS[2].src = '../images/bird3.png';
+BIRD_IMGS[0].src = 'images/bird1.png';
+BIRD_IMGS[1].src = 'images/bird2.png';
+BIRD_IMGS[2].src = 'images/bird3.png';
 
 class Bird {
     constructor(width, height) {
