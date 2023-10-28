@@ -10,8 +10,13 @@ class Bird {
         this.img = BIRD_IMGS[0];
     }
 
+    jump() {
+        this.y -= 100;
+    }
+
     draw(ctx) {
         ctx.drawImage(this.img, this.x, this.y, this.img.width * 2, this.img.height * 2);
+        this.y += 2;
     }
 }
 
